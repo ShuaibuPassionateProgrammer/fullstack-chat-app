@@ -99,3 +99,5 @@ const seedUsers = [
     profilePic: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
+
+const seedDatabase = async () => {};
