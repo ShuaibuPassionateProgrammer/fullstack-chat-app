@@ -11,6 +11,12 @@ const messageSchema = new mongoose.Schema({
         ref: "User",
         required: true
     },
+    text: {
+        type: String
+    },
+    image: {
+        type: String
+    }
 });
 
 const Message = mongoose.model("Message", messageSchema);
