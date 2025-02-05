@@ -101,5 +101,8 @@ const seedUsers = [
 ];
 
 const seedDatabase = async () => {
-    
+    try {}
+    catch (error) {
+        console.error("Error seeding database: " + error?.message);
+    }
 };
