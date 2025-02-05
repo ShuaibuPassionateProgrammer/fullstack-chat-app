@@ -100,4 +100,6 @@ const seedUsers = [
   },
 ];
 
-const seedDatabase = async () => {};
+const seedDatabase = async () => {
+    
+};
