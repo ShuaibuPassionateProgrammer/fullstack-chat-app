@@ -74,4 +74,10 @@ const seedUsers = [
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/men/3.jpg",
   },
+  {
+    email: "lucas.moore@example.com",
+    fullName: "Lucas Moore",
+    password: "123456",
+    profilePic: "https://randomuser.me/api/portraits/men/4.jpg",
+  },
 ];
