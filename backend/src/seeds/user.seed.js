@@ -4,4 +4,12 @@ import User from "../models/user.model.js";
 
 config();
 
-const seedUsers = [];
+const seedUsers = [
+    // Female Users
+    {
+    email: "emma.thompson@example.com",
+    fullName: "Emma Thompson",
+    password: "123456",
+    profilePic: "https://randomuser.me/api/portraits/women/1.jpg",
+  },
+];
