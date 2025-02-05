@@ -103,6 +103,8 @@ const seedUsers = [
 const seedDatabase = async () => {
     try {
         await connectDB();
+
+        await User.insertMany(seedUsers);
     }
     catch (error) {
         console.error("Error seeding database: " + error?.message);
