@@ -111,3 +111,6 @@ const seedDatabase = async () => {
         console.error("Error seeding database: " + error?.message);
     }
 };
+
+// Call the function
+seedDatabase();
