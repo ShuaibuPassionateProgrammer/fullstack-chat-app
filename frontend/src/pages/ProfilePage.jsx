@@ -4,6 +4,8 @@ import { Camera, Mail, User } from "lucide-react";
 
 const ProfilePage = () => {
 
+  const [selectedImg, setSelectedImg] = useState(null);
+
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -18,7 +20,7 @@ const ProfilePage = () => {
       await updateProfile({ profilePic: base64Image });
     };
   };
-  
+
   return (
     <div>
       <h1>Profile Page</h1>
