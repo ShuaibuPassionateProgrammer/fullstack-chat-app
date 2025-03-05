@@ -28,6 +28,17 @@ const LoginPage = () => {
                             </div>
 
                             <h1 className="text-2xl font-bold mt-2">Welcome Back</h1>
+                            <p className="text-base-content/60">Sign in to your account</p>
+
+                            {/* Form */}
+                            <form onSubmit={handleSubmit} className="space-y-6">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text font-medium">Email</span>
+                                    </label>
+                                    <div className="relative"></div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
