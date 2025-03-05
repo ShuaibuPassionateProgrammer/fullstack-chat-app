@@ -112,6 +112,6 @@ const SettingsPage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default SettingsPage
+export default SettingsPage;
