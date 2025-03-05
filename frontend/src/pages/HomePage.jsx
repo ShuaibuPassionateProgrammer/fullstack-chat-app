@@ -9,7 +9,7 @@ const HomePage = () => {
     const { selectedUser } = useChatStore();
 
     return (
-        <div>
+        <div className="h-screen bg-base-200">
             <h1>Homepage</h1>
         </div>
     )
