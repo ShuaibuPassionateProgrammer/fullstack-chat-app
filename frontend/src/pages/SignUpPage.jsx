@@ -25,6 +25,14 @@ const SignUpPage = () => {
 
     return true;
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const success = validateForm();
+
+    if (success === true) signup(formData);
+  };
 };
 
 export default SignUpPage;
