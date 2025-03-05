@@ -1,4 +1,6 @@
-import React from 'react'
+import { THEMES } from "../constants";
+import { useThemeStore } from "../store/useThemeStore";
+import { Send } from "lucide-react";
 
 const SettingsPage = () => {
   return (
