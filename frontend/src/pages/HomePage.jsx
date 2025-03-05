@@ -6,11 +6,13 @@ import ChatContainer from "../components/ChatContainer";
 
 
 const HomePage = () => {
-  return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
-  )
+    const { selectedUser } = useChatStore();
+
+    return (
+        <div>
+            <h1>Homepage</h1>
+        </div>
+    )
 }
 
 export default HomePage
