@@ -26,6 +26,8 @@ const LoginPage = () => {
                             <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                                 <MessageSquare className="w-6 h-6 text-primary" />
                             </div>
+
+                            <h1 className="text-2xl font-bold mt-2">Welcome Back</h1>
                         </div>
                     </div>
                 </div>
