@@ -13,9 +13,14 @@ const LoginPage = () => {
 
     const { login, isLoggingIn } = useAuthStore();
 
+    
+
     return (
-        <div>
-            <h1>Login Page</h1>
+        <div className="h-screen grid lg:grid-cols-2">
+            {/* Left Side - Form */}
+            <div className="flex flex-col justify-center items-center p-6 sm:p-12">
+                
+            </div>
         </div>
     )
 }
