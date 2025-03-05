@@ -1,11 +1,4 @@
-import React from 'react'
-
-const SignUpPage = () => {
-  return (
-    <div>
-      <h1>Sign Up Page</h1>
-    </div>
-  )
-}
-
-export default SignUpPage
+import { useState } from "react";
+import { useAuthStore } from "../store/useAuthStore";
+import { Eye, EyeOff, Loader2, Lock, Mail, MessageSquare, User } from "lucide-react";
+import { Link } from "react-router-dom";
